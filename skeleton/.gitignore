@@ -1,22 +1,18 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# See https://help.github.com/ignore-files/ for more about ignoring files.
 
-# Test binary, build with `go test -c`
-*.test
+# dependencies
+/node_modules
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# testing
+/coverage
+junit.xml
 
-# dist dir
-dist
+# build
+/build
 
-sync
+# misc
+.DS_Store
 
-*.db
-
-config.test.yml
-coverage.html
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
